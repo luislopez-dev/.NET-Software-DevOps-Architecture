@@ -66,4 +66,4 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker buildx build --platform --platform linux/amd64,linux/arm64 -t "${{secrets.DOCKER_HUB_USERNAME}}/dotnet-app:latest" . --push
+          docker buildx build --platform linux/amd64,linux/arm64 -t "${{secrets.DOCKER_HUB_USERNAME}}/dotnet-app:latest" . --push
