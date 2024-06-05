@@ -60,4 +60,4 @@ jobs:
         with:
           name: .NET Core Tests           # Name of the check run which will be created
           path: '**/test-results.xml'   # Path to test results
-          reporter: junit         # Format of test results
+          reporter: jest-junit         # Format of test results
