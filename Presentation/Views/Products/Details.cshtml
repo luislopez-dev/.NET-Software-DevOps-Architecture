@@ -1,0 +1,27 @@
+﻿<!--
+Author: Luis López
+Website: https://github.com/luislopez-dev
+Description: Training Project
+-->
+
+@model Business.Models.Product
+
+@{
+    ViewBag.Title = "Detalles " + @Model.Name;
+    Layout = "_Layout";
+}
+
+@if(TempData["message"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["message"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<ul class="list-group">
+    <li class="list-group-item">Nombre del producto: @Model.Name</li>
+    <li class="list-group-item">Precio: @("Q" + Model.Price)</li>
+    <li class="list-group-item">Stock disponible: @Model.Stock</li>
+    <li class="list-group-item">Descripción: @Model.Description</li>
+</ul>

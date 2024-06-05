@@ -1,0 +1,55 @@
+name: Build, Test and Publish Docker Image
+
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  build-and-test:
+
+    runs-on: Ubuntu-latest
+
+    steps:
+
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
+      
+      - name: Restore dependencies for Presentation
+        run: dotnet restore "Presentation/Presentation.csproj"
+
+      - name: Restore dependencies for Application
+        run: dotnet restore "Application/Application.csproj"
+
+      - name: Restore dependencies for Infrastructure
+        run: dotnet restore "Infrastructure/Infrastructure.csproj"
+
+      - name: Restore dependencies for Business
+        run: dotnet restore "Business/Business.csproj"
+
+      - name: Restore dependencies for Presentation.Tests
+        run: dotnet restore "Presentation.Tests/Presentation.Tests.csproj"
+
+      - name: Restore dependencies for Application.Tests
+        run: dotnet restore "Application.Tests/Application.Tests.csproj"
+
+      - name: Restore dependencies for Infrastructure.Tests
+        run: dotnet restore "Infrastructure.Tests/Infrastructure.Tests.csproj"
+
+      - name: Restore dependencies for Business.Tests
+        run: dotnet restore "Business.Tests/Business.Tests.csproj"
+
+      - name: Build the project
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run tests
+        run: dotnet test --no-restore  --verbosity normal

@@ -1,0 +1,40 @@
+﻿<!--
+Author: Luis López
+Website: https://github.com/luislopez-dev
+Description: Training Project
+-->
+
+@model Business.Models.Product
+
+@{
+    ViewBag.Title = "Crear Producto";
+    Layout = "_Layout";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <form method="POST">
+        <div class="form-group mb-3">
+            <label for="InputName" class="form-label">Nombre</label>
+            <input required minlength="5" maxlength="60" type="text" name="name" class="form-control" id="InputName">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label for="InputPrice" class="form-label">Precio (Q)</label>
+            <input required min="1" max="100000" type="number" name="price" step="0.01" class="form-control" id="InputPrice">
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label for="InputStock" class="form-label">Stock</label>
+            <input required min="1" max="1000000" type="number" name="stock" class="form-control" id="InputStock">
+            <span class="text-danger" asp-validation-for="Stock"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label for="InputDescription" class="form-label">Descripción</label>
+            <textarea maxlength="900" minlength="5" required class="form-control" name="description" id="InputDescription" rows="3"></textarea>
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+        <button type="submit" id="Create" class="btn btn-primary">Enviar</button>
+    </form>
+</div>

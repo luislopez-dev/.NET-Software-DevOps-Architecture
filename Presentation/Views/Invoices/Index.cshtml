@@ -1,0 +1,70 @@
+﻿<!--
+Author: Luis López
+Website: https://github.com/luislopez-dev
+Description: Training Project
+-->
+
+@model List<Business.Models.Invoice>
+
+@{
+    ViewBag.Title = "Facturas";
+    Layout = "_Layout";
+}
+
+@if(TempData["message"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["message"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<ul>
+@foreach (var error in ViewData.ModelState.Values.SelectMany(modelState => modelState.Errors))
+{  <li>@error</li>  }    
+</ul>
+
+@if (Model != null && Model.Count > 0)
+{
+    
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+            <th scope="col">Nombre del cliente</th>
+            <th scope="col">Dirección de envio</th>
+            <th scope="col">NIT</th>
+            <th scope="col">Método de pago</th>
+            <th scope="col">Descuento</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Total</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var invoice in Model)
+    {
+        <tr>
+            <td>@(Model.IndexOf(invoice) + 1)</td>
+            <td>@invoice.ClientName</td>
+            <td>@invoice.ClientAddress</td>
+            <td>@invoice.ClientNit</td>
+            <td>@invoice.PaymentMethod</td>
+            <td>Q@(invoice.Discount)</td>
+            <td>
+                <select class="form-select" aria-label="products">
+                @foreach(var product in invoice.InvoiceProducts.Select(order => order.Product)) 
+                {
+                    <option>@product.Name</option>                  
+                }
+                </select>
+            </td>
+            <td>Q@(invoice.Total)</td>
+        </tr>
+    }
+    </tbody>
+</table>
+}
+else {
+    <div class="alert alert-info" role="alert">
+        !No se encontraron facturas!
+    </div>
+}
