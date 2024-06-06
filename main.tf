@@ -17,7 +17,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "azurerm_service_plan" "appServicePlan" {
-  name = "QA"
+  name = "DOT-NET-PROTOTYPE"
   location = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   os_type = "Linux"
@@ -25,31 +25,37 @@ resource "azurerm_service_plan" "appServicePlan" {
 }
 
 resource "azurerm_linux_web_app" "QA" {
-  name = "QA"
+  name = "${azurerm_service_plan.appServicePlan.name}-QA"
   resource_group_name = azurerm_resource_group.rg.name
   location = azurerm_resource_group.rg.location
   service_plan_id = azurerm_service_plan.appServicePlan.id
   https_only = false
   site_config {
+    use_32_bit_worker = true
+    always_on = false
   }
 }
 
 resource "azurerm_linux_web_app" "Staging" {
-  name = "Staging"
+  name = "${azurerm_service_plan.appServicePlan.name}-Staging"
   resource_group_name = azurerm_resource_group.rg.name
   location = azurerm_resource_group.rg.location
   service_plan_id = azurerm_service_plan.appServicePlan.id
   https_only = false
   site_config {
+    use_32_bit_worker = true
+    always_on = false
   }
 }
 
 resource "azurerm_linux_web_app" "Production" {
-  name = "Production"
+  name = "${azurerm_service_plan.appServicePlan.name}-Production"
   resource_group_name = azurerm_resource_group.rg.name
   location = azurerm_resource_group.rg.location
   service_plan_id = azurerm_service_plan.appServicePlan.id
   https_only = false
   site_config {
+    use_32_bit_worker = true
+    always_on = false
   }
 }
