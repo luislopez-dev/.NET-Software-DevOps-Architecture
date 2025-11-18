@@ -1,6 +1,5 @@
 **Languages:**  
-[🇺🇸 English](README.md) | [🇪🇸 Español](README.es.md)
-
+[🇺🇸 English](README.md) | [🇬🇹 Español](README.es.md)
 
 # Enterprise .NET Architecture Template
 
@@ -16,6 +15,9 @@ This template provides a clean, extensible structure that accelerates the develo
 ## Architecture Overview
 
 The solution is organized into independent, clearly-defined layers, each designed to enforce separation of concerns, testability, and maintainability at scale:
+
+<img width="700" height="400" alt="enterprise-dotnet-architecture" src="https://github.com/user-attachments/assets/e106d323-4e53-4085-9be0-af0e9a09146c" />
+
 
 ### **Presentation**
 Handles API endpoints, request/response models, controllers, and cross-cutting concerns related to delivery.
@@ -140,11 +142,9 @@ You can reach me at:
 
 ## Demonstration Video
 
-<div align="center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/mJzvkAc4cLI?si=w2zx6jPE0bgqPXOO" title="Architecture Template Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe> </div>
+[![Architecture Template Demo](https://img.youtube.com/vi/mJzvkAc4cLI/0.jpg)](https://www.youtube.com/watch?v=mJzvkAc4cLI)
 
----
-
-## Crafted and maintained by [Luis López](https://github.com/luislopez-dev)
+### Crafted and maintained by [Luis López](https://github.com/luislopez-dev)
 
 ---
 
