@@ -16,7 +16,7 @@ This template provides a clean, extensible structure that accelerates the develo
 
 The solution is organized into independent, clearly-defined layers, each designed to enforce separation of concerns, testability, and maintainability at scale:
 
-<img width="800" height="300" alt="enterprise-dotnet-architecture" src="https://github.com/user-attachments/assets/e106d323-4e53-4085-9be0-af0e9a09146c" />
+<img width="800" height="400" alt="enterprise-dotnet-architecture" src="https://github.com/user-attachments/assets/e106d323-4e53-4085-9be0-af0e9a09146c" />
 
 
 ### **Presentation**
