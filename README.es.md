@@ -11,7 +11,7 @@ Esta plantilla proporciona una estructura limpia y extensible que acelera el des
 
 ---
 
-**Video en Youtube**
+### **Video en Youtube**
 
 [![Architecture Template Demo](https://img.youtube.com/vi/BXW7uFoATsk/0.jpg)](https://www.youtube.com/watch?v=BXW7uFoATsk)
 
