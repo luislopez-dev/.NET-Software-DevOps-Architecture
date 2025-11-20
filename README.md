@@ -5,6 +5,18 @@
 
 A robust, enterprise-grade architectural baseline powered by Clean Architecture, featuring modular, scalable, and fully testable .NET components — engineered by [Luis López](https://github.com/luislopez-dev).
 
+# Table of contents
+
+* [Introduction](#introduction)
+* [Architecture Overview](#architecture-overview)
+* [Test-Driven Structure](#test-driven-structure)
+* [DevOps & Automation Ready](#devops--automation-ready)
+* [Key Principles](#key-principles)
+* [Ideal For](#ideal-for)
+* [Why This Template Exists](#why-this-template-exists)
+
+## Introduction
+
 This template provides a clean, extensible structure that accelerates the development of **internal corporate systems and mission-critical business software**.
 
 **If you find this architecture valuable, please consider giving it a star ⭐. Your support helps me continue improving and expanding this template with new capabilities and enterprise-level features.**
