@@ -20,4 +20,4 @@ Para una breve demostración, grabé el siguiente video:
 [Ver en YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
 
 ## Proyección futura
-Aunque el proyecto ya ofrece una base práctica y funcional, en el futuro podría considerarse la incorporación de una arquitectura limpia más completa y la adopción de principios de DDD si fuera necesario para manejar escenarios de mayor complejidad.
+Aunque el proyecto ya ofrece una base práctica y funcional, en el futuro podría considerarse la adopción de principios de arquitectura limpia y la incorporación de prácticas de DDD si fuera necesario para manejar escenarios de mayor complejidad.
