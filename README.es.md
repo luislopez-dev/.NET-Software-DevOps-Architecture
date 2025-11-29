@@ -10,7 +10,7 @@ Este proyecto funciona como una base sólida para construir aplicaciones web con
 La solución sigue un flujo de trabajo orientado a TDD. Incluye pruebas unitarias y de integración que ayudan a validar los componentes clave y garantizar la calidad del código desde etapas tempranas. La intención es favorecer ciclos de desarrollo más seguros y predecibles.
 
 ## Integración continua
-El repositorio incluye un pipeline de CI configurado con GitHub Actions. Este flujo automatiza la ejecución de pruebas y verifica que cada cambio cumpla con los estándares definidos. Esto ayuda a mantener un ritmo de desarrollo estable y reduce regresiones en cada commit o pull request.
+El repositorio incluye un pipeline de CI configurado con GitHub Actions. Este flujo automatiza la ejecución de pruebas y verifica que cada cambio cumpla con los estándares definidos.
 
 ## Entorno de ejecución
 Para simplificar la configuración y asegurar consistencia entre entornos, el proyecto utiliza Docker Compose. La configuración incluye soporte para SQL Server, lo que permite replicar fácilmente un entorno de base de datos realista tanto para desarrollo como para pruebas.
