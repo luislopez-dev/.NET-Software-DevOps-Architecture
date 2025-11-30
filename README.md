@@ -1,12 +1,13 @@
 **Languages:**  
-[🇬🇧 English](README.en.md) | [🇬🇹 Español](README.md)
+[🇬🇹 Español](README.md) | [🌎 English](README.en.md)
 
-## Plantilla de Razor Pages TDD Docker & CI Para .NET
+## Plantilla Empresarial para aplicaciones en Razor Pages y .NET
 
 ## Visión general
 Este proyecto funciona como una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.
 
-![projects-dependency-diagram.png](../Pictures/projects-dependency-diagram.png)
+<img width="578" height="440" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/f15659f2-46c5-40b3-97c2-f2108ec3a883" />
+
 
 ## Enfoque de desarrollo
 La solución sigue un flujo de trabajo orientado a TDD. Incluye pruebas unitarias y de integración que ayudan a validar los componentes clave y garantizar la calidad del código desde etapas tempranas. La intención es favorecer ciclos de desarrollo más seguros y predecibles.
@@ -22,4 +23,7 @@ Para una breve demostración, grabé el siguiente video:
 [Ver en YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
 
 ## Proyección futura
-Aunque el proyecto ya ofrece una base práctica y funcional, en el futuro podría considerarse la adopción de principios de arquitectura limpia y la incorporación de prácticas de DDD si fuera necesario para manejar escenarios de mayor complejidad.
+Aunque el proyecto ya ofrece una base práctica y funcional, en el futuro podría considerarse la adopción de más principios de arquitectura limpia y la incorporación de prácticas de DDD si fuera necesario para manejar escenarios de mayor complejidad.
+
+
+## Proyecto creado y mantenido por [Luis López](https://github.com/luislopez-dev)
