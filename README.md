@@ -1,29 +1,30 @@
 **Languages:**  
-[🇬🇹 Español](README.md) | [🌎 English](README.en.md)
+[🇬🇹 Español](README.md) | [🌎 English](README.es.md)
 
-## Plantilla Empresarial para aplicaciones en Razor Pages y .NET
+## Enterprise Template for apps in .NET and Razor Pages
 
-## Visión general
-Este proyecto funciona como una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.
+## Overview
+This project serves as a solid foundation for building web applications with Razor Pages. Its goal is to provide a clear and maintainable starting point that can grow without complications. It is designed for teams or individual developers who want to begin with a well-defined structure without having to reinvent essential configurations.
 
-<img width="578" height="404" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/0764a3f9-4737-4d57-aae4-deaf11605441" />
+<img width="578" height="404" alt="520527297-0764a3f9-4737-4d57-aae4-deaf11605441" src="https://github.com/user-attachments/assets/43d80601-16a6-4d89-8933-d0ae8cf0a267" />
 
-## Enfoque de desarrollo
-La solución sigue un flujo de trabajo orientado a TDD. Incluye pruebas unitarias y de integración que ayudan a validar los componentes clave y garantizar la calidad del código desde etapas tempranas. La intención es favorecer ciclos de desarrollo más seguros y predecibles.
+## Development Approach
+The solution follows a TDD-oriented workflow. It includes unit and integration tests that help validate key components and ensure code quality from early stages. The intention is to support safer and more predictable development cycles.
 
-## Integración continua
-El repositorio incluye un pipeline de CI configurado con GitHub Actions. Este flujo automatiza la ejecución de pruebas y verifica que cada cambio cumpla con los estándares definidos.
+## Continuous Integration
+The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. 
 
-## Entorno de ejecución
-Para simplificar la configuración y asegurar consistencia entre entornos, el proyecto utiliza Docker Compose. La configuración incluye soporte para SQL Server, lo que permite replicar fácilmente un entorno de base de datos realista tanto para desarrollo como para pruebas.
+## Runtime Environment
+To simplify setup and ensure consistency across environments, the project uses Docker Compose. The configuration includes support for SQL Server, allowing you to easily replicate a realistic database environment for both development and testing.
 
-## Video en YouTube
-Para una breve demostración, grabé el siguiente video:
-[Ver en YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
+## YouTube Video
+For a short demonstration, I recorded the following video:
 
-## Proyección futura
-Aunque el proyecto ya ofrece una base práctica y funcional, en el futuro podría considerarse la adopción de más principios de arquitectura limpia y la incorporación de prácticas de DDD si fuera necesario para manejar escenarios de mayor complejidad.
+[Watch on YouTube](https://youtu.be/0nfXpb7OsPA?si=28_t2m6mDIMfSiVw)
 
-Si desea ver esta evolución, considere dejar una estrella ⭐ para apoyar futuras mejoras de ingeniería.
+## Future Considerations
+Although the project already provides a practical and functional foundation, the future may include the possibility of adopting more clean architecture principles and introducing DDD practices if needed to handle more complex scenarios.
 
-## Proyecto creado y mantenido por [Luis López](https://github.com/luislopez-dev)
+If you want to see this evolution, please consider leaving a star ⭐ to support further engineering  improvements.
+
+## Project created and maintained by [Luis López](https://github.com/luislopez-dev)
