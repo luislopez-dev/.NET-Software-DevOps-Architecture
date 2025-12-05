@@ -1,14 +1,11 @@
 name: Build, Test and Publish Docker Image
 
-on: 
-#  push:
-#    branches:
-#      - main
-  pull_request:
+on:
+  push:
     branches:
       - main
   workflow_dispatch:
-
+  
 jobs:
 
   build-and-test:
