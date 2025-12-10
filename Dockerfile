@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
+FROM docker pull mcr.microsoft.com/dotnet/sdk:9.0 AS build-env
 
 WORKDIR /app
 
@@ -18,7 +18,7 @@ WORKDIR "Presentation/"
 
 RUN dotnet publish -c Release -o out
 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0
+FROM docker pull mcr.microsoft.com/dotnet/aspnet:9.0
 
 RUN sed -i 's/CipherString = DEFAULT@SECLEVEL=2/CipherString = DEFAULT@SECLEVEL=1/g' /etc/ssl/openssl.cnf
 
