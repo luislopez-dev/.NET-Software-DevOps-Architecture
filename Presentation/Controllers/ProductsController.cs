@@ -103,23 +103,6 @@ public class ProductsController : BaseController
             
             return RedirectToAction(nameof(Index));
         }
-        /*if (product == null || product.Guid == Guid.Empty)
-            {
-                TempData["message"] = "Producto inválido.";
-                return RedirectToAction(nameof(Index));
-            }
-        
-            try
-            {
-                await _productService.DeleteProductByGuidAsync(product.Guid, cancellationToken);
-                TempData["message"] = "¡Producto eliminado exitosamente!";
-                return RedirectToAction(nameof(Index));
-            }
-            catch (DeleteProductException)
-            {
-                TempData["message"] = "¡No se pudo eliminar el producto, inténtelo más tarde!";
-                return RedirectToAction(nameof(Index));
-            }*/
     }
 
     [HttpPost]
