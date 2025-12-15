@@ -2,7 +2,7 @@
 [🇬🇹 Español](README.es.md) | [🌎 English](README.md)
 
 ## Plantilla Empresarial para aplicaciones en Razor Pages y .NET
-### Impulsada por Selenium, Clean Architecture, TDD, Docker & GitHub Actions
+## <sub>Impulsada por Selenium, Clean Architecture, TDD, Docker & GitHub Actions</sub>
 
 
 ## Introducción
