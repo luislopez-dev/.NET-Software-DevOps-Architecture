@@ -2,7 +2,7 @@
 [🇬🇹 Español](README.es.md) | [🌎 English](README.md)
 
 # **Enterprise Template for apps in .NET and Razor Pages**
-# <sub> Powered by Selenium, Clean Architecture, TDD, Docker & GitHub Actions </sub>
+# <sub> Powered by Selenium, CA Principles, TDD, Docker & GitHub Actions </sub>
 
 ## Introduction
 
