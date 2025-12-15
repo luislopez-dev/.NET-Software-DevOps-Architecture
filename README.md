@@ -3,7 +3,7 @@
 
 ## Plantilla Empresarial para aplicaciones en Razor Pages y .NET
 
-## Instroducción
+## Introducción
 Este proyecto proporciona una base sólida para construir aplicaciones web con Razor Pages. Su objetivo es ofrecer un punto de partida claro y mantenible que pueda crecer sin complicaciones. Está pensado para equipos o desarrolladores individuales que desean comenzar con una estructura bien definida sin tener que reinventar configuraciones esenciales.
 
 <img width="578" height="404" alt="projects-dependency-diagram" src="https://github.com/user-attachments/assets/0764a3f9-4737-4d57-aae4-deaf11605441" />
