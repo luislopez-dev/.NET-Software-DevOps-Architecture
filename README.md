@@ -23,7 +23,9 @@ The services in this project might be refactored into individual use cases in fu
 
 ### Infrastructure
 
-Implements technical details such as data access and external services.
+<strong>Implements technical details such as data access and external services.</strong>
+
+The repositories in this template will likely be refactored through a generic repository in the future.
 
 ### Presentation
 
