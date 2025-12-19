@@ -29,7 +29,7 @@ Implements technical details such as data access and external services.
 
 Contains the Razor Pages and <strong> the logic that handles user interaction.</strong> 
 
-Blazor componentes might be introduced in future updates.
+Blazor components is currently under consideration for an upcoming update.
 
 ## Development Approach
 The solution follows a TDD-oriented workflow, incorporating unit and integration tests to validate key components and ensure code quality from the early stages of development. In addition, end-to-end tests are implemented using Selenium to verify critical user flows in a real browser environment.
