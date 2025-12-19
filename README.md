@@ -19,7 +19,7 @@ This layer will be renamed to Domain in future updates when DDD principles are i
 
 <strong>Defines the application services and coordinates communication between the presentation layer and the business logic.</strong>
 
-These services might be refactored into individual use cases in future updates.
+The services in this project might be refactored into individual use cases in future updates.
 
 ### Infrastructure
 
