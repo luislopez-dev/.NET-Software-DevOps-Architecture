@@ -6,9 +6,8 @@
 
 ## Introduction
 
-This repository is intended for educational and experimental purposes only. It is not production-ready and should not be used in live or critical environments.
-
-<strong>This project focuses on high-level architecture.</strong> Some patterns like dtos and isolated use cases have been omitted. I might continue to refine this project in future updates as time permits. If you need references on how to use DTOs, the mediator pattern and other patterns which are not included in this project feel free to review my other repos: 
+<strong>This project focuses on high-level architecture.</strong> It is intended for educational and experimental purposes only.
+Some patterns like dtos and isolated use cases have been omitted. I might continue to refine this project in future updates as time permits. If you need references on how to use DTOs, the mediator pattern and other patterns which are not included in this project feel free to review some of my other repos: 
 * https://github.com/luislopez-dev/.Net-datingApp-web-api
 * https://github.com/luislopez-dev/.NET-MEDIATOR-PATTERN-IMPL
 
@@ -16,7 +15,7 @@ This repository is intended for educational and experimental purposes only. It i
 
 This project emulates an inventory and billing management system.
 
-<img width="502" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/3f4cfc0b-f3db-4386-9957-512fa464e485" />
+<img width="502" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/7d571773-cbdc-49f6-859c-76ea5c33af93" />
 
 ## Software architecture
 
