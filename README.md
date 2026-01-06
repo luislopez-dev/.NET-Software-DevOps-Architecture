@@ -8,7 +8,7 @@
 
 <strong>This repository is intended for educational and experimental purposes only. It is not production-ready and should not be used in live or critical environments.</strong>
 
-Dto Pattern and isolated use cases have been omitted due to time constraints. I will continue to refine this project in future updates.
+Some patterns like dtos and isolated use cases have been omitted due to time constraints. I might continue to refine this project in future updates.
 
 ## Business Logic
 
@@ -43,7 +43,7 @@ The repository includes a CI pipeline built with GitHub Actions. This workflow a
 <img width="902" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/f614ae39-3be4-493f-9483-d5f1c41de957" />
 
 ## Runtime Environment
-The project uses Docker Compose 🐋 for consistent environment setup. This includes SQL Server support 🛢, enabling easy replication of realistic database environments for both development and testing.
+The project uses Docker Compose 🐋 for consistent environment setup. This includes SQL Server support, enabling easy replication of realistic database environments for both development and testing.
 
 ## Testing
 The solution follows a TDD workflow with unit and integration tests to ensure early code quality 🧪. Additionally, Selenium is used for end-to-end testing to verify critical user flows in a real browser.
