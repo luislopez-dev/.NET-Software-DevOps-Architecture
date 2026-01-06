@@ -8,7 +8,7 @@
 
 <strong>This repository is intended for educational and experimental purposes only. It is not production-ready and should not be used in live or critical environments.</strong>
 
-Some patterns like Dto pattern and isolated use cases have been omitted due to time constraints. I might continue to refine this project in future updates.
+Some patterns like dtos and isolated use cases have been omitted due to time constraints. I might continue to refine this project in future updates.
 
 ## Business Logic
 
