@@ -37,17 +37,19 @@ Implements technical details such as data access and external services.
 
 Contains the logic that handles user interaction.
 
-## DevOps
+## DevOps Architecture
 
 The repository includes a CI pipeline built with GitHub Actions. This workflow automates test execution and verifies that every change meets the defined standards. The pipeline additionally containerizes the project with Docker and deploys the resulting image to Docker Hub.
 
 <img width="902" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/f614ae39-3be4-493f-9483-d5f1c41de957" />
 
-## Runtime Environment
+### Runtime Environment
 The project uses Docker Compose 🐋 for consistent environment setup. This includes SQL Server support, enabling easy replication of realistic database environments for both development and testing.
 
 ## Testing
 The solution follows a TDD workflow with unit and integration tests to ensure early code quality 🧪. Additionally, Selenium is used for end-to-end testing to verify critical user flows in a real browser.
+
+<img width="602" height="666" alt="Project (2)" src="https://github.com/user-attachments/assets/47dd8961-4f26-4751-9292-8ba603f2b7ea" />
 
 ## YouTube Video
 For a short demonstration, I recorded the following video:
